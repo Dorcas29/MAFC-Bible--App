@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light grey background */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: #4CAF50; /* Green background */
+    color: #fff;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.navbar h1.logo {
+    margin: 10px;
+    float: left;
+}
+
+.navbar .nav-links {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    float: left;
+}
+
+.navbar .nav-links li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar .nav-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white on hover */
+}
+
+/* Home Section Styles */
+.home {
+    background: #ffffff; /* White background */
+    padding: 50px 0;
+    text-align: center;
+    color: #333; /* Dark text */
+}
+
+.home h2 {
+    margin-bottom: 20px;
+}
+
+.home p {
+    margin-bottom: 20px;
+}
+
+/* Search Section Styles */
+.search {
+    background: #ffffff; /* White background */
+    padding: 50px 0;
+    text-align: center;
+    color: #333; /* Dark text */
+}
+
+.search h2 {
+    margin-bottom: 20px;
+}
+
+#search-bar {
+    width: 80%;
+    max-width: 600px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#search-results {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.verse-result {
+    border: 1px solid #4CAF50;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Bible Document Section Styles */
+.bible-document {
+    background: #ffffff; /* White background */
+    padding: 50px 0;
+    text-align: center;
+    color: #333; /* Dark text */
+}
+
+.bible-document h2 {
+    margin-bottom: 20px;
+}
+
+.bible-document a {
+    display: block;
+    color: #4CAF50; /* Green links */
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bible-document a:hover {
+    text-decoration: underline;
+}
+
+/* Study Plan Section Styles */
+.study-plan {
+    background: #ffffff; /* White background */
+    padding: 50px 0;
+    text-align: center;
+    color: #333; /* Dark text */
+}
+
+.study-plan h2 {
+    margin-bottom: 20px;
+}
+
+/* Login Section Styles */
+.login {
+    background: #ffffff; /* White background */
+    padding: 50px 0;
+    text-align: center;
+    color: #333; /* Dark text */
+}
+
+.login h2 {
+    margin-bottom: 20px;
+}
+
+#login-form {
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+#login-form label,
+#login-form input,
+#login-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#login-form button {
+    background-color: #4CAF50; /* Green button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Footer Section Styles */
+.footer {
+    background: #4CAF50; /* Green background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* ScrollBar */
+.scrollbar {
+    width: 8px;
+    background-color: #4CAF50; /* Green scrollbar */
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+

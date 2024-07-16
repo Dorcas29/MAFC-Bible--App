@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bible App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Bible App</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#bible-document">Bible Document</a></li>
+                <li><a href="#study-plan">Study Plan</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container">
+            <h2>Daily Verse</h2>
+            <p id="daily-verse"></p>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section id="search" class="search">
+        <div class="container">
+            <h2>Search the Bible</h2>
+            <input type="text" id="search-bar" placeholder="Search for a Bible verse or chapter">
+            <button onclick="searchBible()">Search</button>
+            <div id="search-results"></div>
+        </div>
+    </section>
+
+    <!-- Bible Document Section -->
+    <section id="bible-document" class="bible-document">
+        <div class="container">
+            <h2>Bible Document</h2>
+            <p>Read the Bible online or download it for offline reading:</p>
+            <a href="https://www.bible.com" target="_blank">Read the Bible Online</a><br>
+            <a href="path/to/bible.pdf" target="_blank">Download Bible PDF</a>
+        </div>
+    </section>
+
+    <!-- Study Plan Section -->
+    <section id="study-plan" class="study-plan">
+        <div class="container">
+            <h2>Study Plan</h2>
+            <p>Manage your Bible study plan here.</p>
+            <!-- Add functionality for adding and viewing study plans -->
+        </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="login">
+        <div class="container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <button type="submit">Login</button>
+            </form>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Dorcas</p>
+        </div>
+    </footer>
+
+    <!-- ScrollBar -->
+    <div class="scrollbar"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
