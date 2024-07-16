@@ -102,28 +102,33 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Bible Document Section Styles */
-.bible-document {
+/* Bible Section Styles */
+.bible {
     background: #ffffff; /* White background */
     padding: 50px 0;
     text-align: center;
     color: #333; /* Dark text */
 }
 
-.bible-document h2 {
+.bible h2 {
     margin-bottom: 20px;
 }
 
-.bible-document a {
-    display: block;
-    color: #4CAF50; /* Green links */
+#book-select, #chapter-select {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     margin-bottom: 10px;
-    text-decoration: none;
-    font-weight: bold;
 }
 
-.bible-document a:hover {
-    text-decoration: underline;
+#bible-text {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
 }
 
 /* Study Plan Section Styles */

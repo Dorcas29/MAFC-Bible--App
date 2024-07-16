@@ -14,7 +14,7 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#search">Search</a></li>
-                <li><a href="#bible-document">Bible Document</a></li>
+                <li><a href="#bible">Bible</a></li>
                 <li><a href="#study-plan">Study Plan</a></li>
                 <li><a href="#login">Login</a></li>
             </ul>
@@ -39,13 +39,19 @@
         </div>
     </section>
 
-    <!-- Bible Document Section -->
-    <section id="bible-document" class="bible-document">
+    <!-- Bible Section -->
+    <section id="bible" class="bible">
         <div class="container">
-            <h2>Bible Document</h2>
-            <p>Read the Bible online or download it for offline reading:</p>
-            <a href="https://www.bible.com" target="_blank">Read the Bible Online</a><br>
-            <a href="path/to/bible.pdf" target="_blank">Download Bible PDF</a>
+            <h2>Read the Bible</h2>
+            <select id="book-select" onchange="loadChapters()">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+            <select id="chapter-select" onchange="loadVerses()">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+            <div id="bible-text">
+                <!-- Bible text will be displayed here -->
+            </div>
         </div>
     </section>
 
